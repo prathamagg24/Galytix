@@ -1,0 +1,7 @@
+<h2>Weather for {{ country }}</h2>
+
+<div *ngIf="weatherData">
+  Temperature: {{ weatherData.main.temp }} K<br>
+  Humidity: {{ weatherData.main.humidity }}%<br>
+  Wind: {{ weatherData.wind.speed }} m/s
+</div>
